@@ -1,0 +1,15 @@
+<h1> Employee Show Page </h1>
+<img src=<%= @employee.img_url %>><br>
+<label> Name: </label>
+<%= @employee.first_name %><br>
+<label> Alias: </label>
+<%= @employee.alias %><br>
+<label> Title: </label>
+<%= @employee.title %><br>
+<label> Office: </label>
+<%= @employee.office %><br>
+<label> Dog: </label>
+<%= @employee.dog.name %><br>
+
+
+<%= link_to 'Employee Index Page', employees_path %>
